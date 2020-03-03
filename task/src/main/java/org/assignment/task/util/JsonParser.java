@@ -4,7 +4,7 @@ import com.google.gson.Gson;
 
 public class JsonParser {
 
-	private Gson gson = new Gson();;
+	private Gson gson = new Gson();
 
 	public Object deserializeJson(String json, Class<?> clazz) {
 		return gson.fromJson(json, clazz);
